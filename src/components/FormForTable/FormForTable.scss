@@ -1,0 +1,112 @@
+.blue-icon {
+  color: #94CFFF;
+}
+
+.grey-icon > svg{
+  color: #efefef5e;
+}
+
+.ant-list > .ant-list-header{
+  padding: 10px 10px;
+  border-bottom: 1px;
+  margin-bottom: 14px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table{
+  background-color: transparent !important;
+}
+
+.ant-table-tbody{
+  background-color: #fff;
+}
+
+.ant-table-title{
+  margin-bottom: 14px!important;
+  padding: 10px!important;
+  background-color: #fafafa!important;
+  border-radius: 2px 2px 0 0;
+
+  & .contacts-form .ant-col.gutter-row{
+      width: 100%;
+      padding: 0 6px !important;
+
+      & .ant-col.ant-form-item-control{
+        width: 100%;
+        padding: 0 6px !important;
+      }
+  }
+}
+
+.contacts-form{
+  padding: 16px 0;
+  background-color: #fff;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 5px 5px hsla(0,0%,40%,.1);
+  
+  & > .ant-form.ant-form-horizontal > .ant-row {
+    display: grid;
+    grid-template-columns: 6fr 2.5fr 3fr 2.5fr 1fr;
+    grid-gap: 8px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  & input{
+    height: 40px;
+  }
+
+  & .ant-col.ant-form-item-control{
+
+    & .ant-select-selection-placeholder {
+      display: inline-block;
+      height: 30px;
+      padding-top: 5px;
+    }
+
+    & .ant-input-affix-wrapper.ant-input-search{
+      height: 25px;
+      box-sizing: content-box;
+      padding: 6.5px;
+      position: relative;
+
+      & > input{
+        height: 25px;
+      }
+    }
+
+    & .ant-select-selector{
+      height: 40px;
+    }
+  }
+
+  & .ant-btn {
+    padding-top: 5px;
+  }
+}
+
+.ant-table {
+
+  & .ant-list-header{
+    padding: 10px 0;
+  }
+
+  & > .ant-table-title {
+    margin: 0;
+  }
+}
+
+.ant-row.ant-form-item{
+  margin-bottom: 0;
+}
+
+.list__card-container .ant-col.gutter-row.form-checkox {
+  margin-left: -6px !important;
+};
+
+.select-gender .ant-select-selection-item{
+  margin-top: 5px;
+}

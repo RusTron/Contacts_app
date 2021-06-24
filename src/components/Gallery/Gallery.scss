@@ -1,0 +1,34 @@
+.ant-divider.ant-divider-horizontal{
+  margin: 12px 0;
+}
+
+.ant-avatar.ant-avatar-lg.ant-avatar-circle.ant-avatar-image.list__avatar{
+  height: 240px;
+  width: 100%;
+  border-radius: 0;
+
+  & > img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.list__card-container .ant-col{
+  width: 100%;
+  padding: 0 6px !important;
+}
+
+.list__person-age{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0,0,0,.45)
+}
+
+.ant-spin-container > .ant-row {
+  display: flex !important;
+  justify-content: space-between !important;
+
+  & > div {
+    max-width: 400px !important;
+  }
+}

@@ -1,0 +1,21 @@
+.layout__header {
+
+  & .ant-row{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 85px 1fr;
+  grid-gap: 0;
+  margin: 3px 0;
+  }
+}
+
+.layout__header > .ant-row > .ant-col._flex-grow > .ant-row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ant-col {
+  display: inline-block;
+}

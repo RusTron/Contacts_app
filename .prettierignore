@@ -1,0 +1,13 @@
+# Generated files
+app
+
+*.config.js
+*.json
+local-*.json
+local.json
+jestImageTransform.js
+svgMock.js
+
+
+# Third-party files
+node_modules/**
